@@ -1,0 +1,13 @@
+name = "Harmony"
+uuid = "d19a7799-b532-4d80-9a5e-c1ba70b858a3"
+authors = ["Colin LaMont"]
+version = "1.0.0-DEV"
+
+[compat]
+julia = "1"
+
+[extras]
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+[targets]
+test = ["Test"]
